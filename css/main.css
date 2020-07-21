@@ -1,0 +1,68 @@
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.btn {
+	display: block;
+	width: 300px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	background: green;
+	border-radius: 30px;
+	padding: 15px 0;
+	text-align: center;
+}
+.btn:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #18741e;
+}
+.green_it {
+	
+}
+.sky {
+	background: url("../img/BG sky.png") no-repeat center center /cover;
+	padding-top: 100px;
+}
+.green_anim {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.green_anim__offer {
+	position: relative;
+	width: 350px;
+}
+.green_anim__line {
+	position: absolute;
+	width: 15px;
+	height: 120%;
+	background: rgba(61, 186, 32, 0.5);
+	top: 50%;
+	left: -250px;
+	transform: translate(0, -50%);
+	box-shadow: 0 0 40px #3dba20;
+}
+.green_anim__overlay {
+	position: absolute;
+	top: -16%;
+	left: -16%;
+	width: 130%;
+	display: none;
+}
+.green_anim__img-green, .green_anim__img-greened {
+	width:  100%;
+}
+.ground {
+	padding: 100px 0;
+	background: url("../img/BG ground.png") no-repeat center center /cover;
+}
+.ground_btn {
+	margin: 0 auto;
+}
